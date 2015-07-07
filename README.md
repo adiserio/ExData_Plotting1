@@ -61,9 +61,11 @@ The script file to generate this plot is plot1.R
 To run this sript, you should source in R using the command
 source("plot1.R")
 
+Original plot
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
-
+Assignment plot
+![plot of chunk unnamed-chunk-2](plot1.png) 
 ### Plot 2
 
 The script file to generate this plot is plot2.R
