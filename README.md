@@ -64,8 +64,8 @@ source("plot1.R")
 Original plot
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png "Original plot") 
 
-Resulting plot!
-![plot of plot1](plot1.png) 
+Resulting plot
+![plot of plot1](plot1.png "Resulting plot") 
 ___
 ### Plot 2
 
@@ -74,10 +74,10 @@ To run this sript, you should source in R using the command
 source("plot2.R")
 
 Original plot
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png "Original plot") 
 
 Resulting plot
-![plot of plot2](plot2.png) 
+![plot of plot2](plot2.png "Resulting plot") 
 ___
 ### Plot 3
 
@@ -86,19 +86,19 @@ To run this sript, you should source in R using the command
 source("plot3.R")
 
 Original plot
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png "Original plot") 
 
 Resulting plot
-![plot of plot3](plot3.png) 
+![plot of plot3](plot3.png "Resulting plot") 
 ___
 ### Plot 4
 
 The script file to generate this plot is plot4.R
 To run this sript, you should source in R using the command
-source("plot4.R")
+source("plot4.R") 
 
 Original plot
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png "Original plot") 
 
 Resulting plot
-![plot of plot4](plot4.png) 
+![plot of plot4](plot4.png "Resulting plot") 
