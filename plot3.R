@@ -41,13 +41,13 @@ powCons$Date<-dmy(powCons$Date)
 par(mfrow=c(1,1))
 
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_1,
-    type="l",xlab="",ylab="Energy sub metering",main="", bg="transparent")
+    type="l",xlab="",ylab="Energy sub metering",main="", bg="transparent", col="grey20")
 lines(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_2,
     col="red",main="", bg="transparent")
 lines(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_3,
     col="blue",main="", bg="transparent")
 	
-legend("topright", lty=1, col = c("black", "red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=0.75)
+legend("topright", lty=1, col = c("grey20", "red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=0.75)
 
 # Step 4. Save the plot to a PNG file (480 x 480 px)    
 dev.copy(png, file = "plot3.png",width=480,height=480)

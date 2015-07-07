@@ -1,8 +1,8 @@
 # Author: Angela Di Serio
 # Course: Exploratory Data Analysis
 # Date:   July 2015
-# Course Project 1
-#
+# Course  Project 1
+#         Plot 1
 # Script to visualize household energy usage over a 2-day period in February 2007
 #-------------------------------------------------------------------------------------
 
