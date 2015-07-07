@@ -41,22 +41,22 @@ powCons$Date<-dmy(powCons$Date)
 
 par(mfrow=c(2,2))
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Global_active_power,
-    type="l",xlab="",ylab="Global Active Power",main="", bg="transparent",cex=0.75, col="grey20")
+    type="l",xlab="",ylab="Global Active Power",main="", bg="transparent",cex=0.75, col="grey15")
 
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Voltage,
-    type="l",xlab="datetime",ylab="Voltage",main="", bg="transparent",cex=0.75, col="grey20")
+    type="l",xlab="datetime",ylab="Voltage",main="", bg="transparent",cex=0.75, col="grey15")
 		
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_1,
-    type="l",xlab="",ylab="Energy sub metering",main="", bg="transparent",cex=0.75, col="grey20")
+    type="l",xlab="",ylab="Energy sub metering",main="", bg="transparent",cex=0.75, col="grey15")
 lines(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_2,
     col="red",main="", bg="transparent")
 lines(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Sub_metering_3,
     col="blue",main="", bg="transparent")
 	
-legend("topright", lty=1,bty="n", col = c("grey20", "red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=0.75)
+legend("topright", lty=1,bty="n", col = c("grey15", "red","blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=0.75)
 
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Global_reactive_power,
-    type="l",xlab="datetime",ylab="Global_reactive_power",main="", bg="transparent", cex=0.75, col="grey20")
+    type="l",xlab="datetime",ylab="Global_reactive_power",main="", bg="transparent", cex=0.75, col="grey15")
 
 # Step 4. Save the plot to a PNG file (480 x 480 px)  
 dev.copy(png, file = "plot4.png",width=480,height=480)

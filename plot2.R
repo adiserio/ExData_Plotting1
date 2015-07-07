@@ -42,7 +42,7 @@ powCons$Date<-dmy(powCons$Date)
 par(mfrow=c(1,1))
 
 plot(strptime(paste(powCons$Date,powCons$Time),format="%Y-%m-%d %H:%M:%S"),powCons$Global_active_power,
-   type="l",xlab="",ylab="Global Active Power (kilowatts)",main="", bg="transparent",col="grey20")
+   type="l",xlab="",ylab="Global Active Power (kilowatts)",main="", bg="transparent",col="grey15")
    
 
 # Step 4. Save the plot to a PNG file (480 x 480 px)    
