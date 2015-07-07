@@ -66,7 +66,7 @@ Original plot
 
 Resulting plot
 ![plot of plot1](plot1.png) 
-
+---
 ### Plot 2
 
 The script file to generate this plot is plot2.R
@@ -78,7 +78,7 @@ Original plot
 
 Resulting plot
 ![plot of plot2](plot2.png) 
-
+---
 ### Plot 3
 
 The script file to generate this plot is plot3.R
@@ -90,7 +90,7 @@ Original plot
 
 Resulting plot
 ![plot of plot3](plot3.png) 
-
+---
 ### Plot 4
 
 The script file to generate this plot is plot4.R
